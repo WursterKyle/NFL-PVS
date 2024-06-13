@@ -1,0 +1,16 @@
+# MLB WAR to NFL WAR
+# Player Valuation System
+# Find Each Position's Points, Yards, Giveaways Contributed to the Team (Offense)
+# Air Yards / Yards After Catch
+  # Packers: 383 PTSF 
+    # QBLove10 : 32PTD*6 \
+                          = 216 PTS of 383 PTS : 56.4%           \
+    # QBLove10 : 4RuTD*6 /
+
+    # QBLove10 : 4159PYD \
+                          = 4406 YDS of 5873 YDS :          -  
+    # QBLove10 : 247RuYD /
+
+    # QBLove10 : 11INT \
+                          = 14 GVS of 18 GVS             /
+    # QBLove10 : 3FUM  /
