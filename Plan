@@ -1,16 +1,26 @@
 # MLB WAR to NFL WAR
 # Player Valuation System
+# PV = PC*(WC) + YC*(WC) - GC*(WC)
+  # PV = Player Value
+  # PC = Points Contributed
+  # YC = Yards Contributed
+  # GC = Giveaways Contributed (Deduction)
+    # All as Part of Whole through Weighted System Based on Previous Historical Success 
+# Use Air Yards for QB Passing as it shows true value of QB and gives more value to skill player after catch
 # Find Each Position's Points, Yards, Giveaways Contributed to the Team (Offense)
-# Air Yards / Yards After Catch
-  # Packers: 383 PTSF 
+
+# Packers:
     # QBLove10 : 32PTD*6 \
                           = 216 PTS of 383 PTS : 56.4%           \
     # QBLove10 : 4RuTD*6 /
 
-    # QBLove10 : 4159PYD \
-                          = 4406 YDS of 5873 YDS :          -  
+    # QBLove10 : 2242APYD \
+                          = 2489 YDS of *5873 YDS :          -  
     # QBLove10 : 247RuYD /
 
     # QBLove10 : 11INT \
                           = 14 GVS of 18 GVS             /
     # QBLove10 : 3FUM  /
+
+
+*Total 
