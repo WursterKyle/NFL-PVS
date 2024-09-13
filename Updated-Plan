@@ -1,1 +1,28 @@
-
+Creating an NFL Player Valuation System (PVS) using important historical data
+  Goal:
+    - To show how much value a specific player provides to their team
+    - Able to use in contract negotiations to prove players "value"
+    - Assist franchises with using their salary cap efficiently and correctly
+    - Equate a PVS statistic with money value to give true valuation
+    - Keep the NFL market steady with a slower "inflation" rate
+    - Assure the top paid players are truly worth the rank
+  Process:
+    - Gather data and find most correlated statistics with winning games
+        - Linear Regression, x=statisitc y=games won
+    - Weigh each statisitc according to strength of correlation
+        - Ex: 1:PassTD, 2:RushYD, etc.
+    - Provide numerical value for each weight
+        - Ex: PassTD=2x, RushYD=1.7x
+    - Create a ratio of statisitc to team total multiplied by weight
+        - Ex: (3,000/5,000)*1.7
+    - Develops PVS statistic for each player by team value
+    - Connect PVS to dollar value for player contract worth
+    - Produce Python script to repeat for all NFL players
+    - Establish website to display player statisitcs
+  Challenges:
+    - Data collection
+    - Data Scraping
+    - Statisitc Creation
+  Drawbacks:
+    - Statistic will not be able to accomodate for injuries, leadership traits, personality
+    - Finding ways to value non-skill players since limited data (PFF grades?)
